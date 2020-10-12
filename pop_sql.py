@@ -7,11 +7,9 @@ user = "root"
 password = "password"
 database = "yourdatabasename"
 
-
 # >>> SET BELOW ROUNDS VARIABLE TO 2 ROUNDS MORE THAN NUMBER OF LEVELS OF YOUR DB
 # >>> PARENT TABLE, CHILD, CHILD OF CHILD ETC. EACH IS 1 LEVEL
 rounds = 6
-
 
 # Establish the connection and set cursor
 try:
